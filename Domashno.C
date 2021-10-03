@@ -226,5 +226,26 @@ From binary to Hexadecimal
 Result: 2B
 
 	
+	Earth dayst to Jupiter years
+
+#include <stdio.h>
+
+int main()
+{
+    int iYearOnJupiter = 0; // one year on Jupiter = 12 years on Earth
+    int iDaysOnEarth = 0;
+    
+    printf("\n\n Please, enter days on Earth:");
+
+
+    scanf("%d", &iDaysOnEarth);
+
+    iYearOnJupiter = iDaysOnEarth * 12;
+
+    printf("%.d earth days on Jupiter is: %d years.", iDaysOnEarth, iYearOnJupiter);
+    return 0;
+
+
+}
 	
-		
+		// pochti nishto ne napravih, uspiqh da stiga do Earth days to Jupiter days
